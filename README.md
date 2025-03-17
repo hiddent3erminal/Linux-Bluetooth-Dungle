@@ -19,7 +19,13 @@ cd Bluetooth-Reset-Script
 chmod +x script.sh
 sudo ./script.sh
 
-### 🔹 Dependencies 
+### . Or you can execute it like other commands  
+git clone https://github.com/your-username/Bluetooth-Reset-Script.git
+cd Bluetooth-Reset-Script
+sudo cp bluetooth-reset /usr/local/bin
+sudo bluetooth-reset
+
+### 🔹 Dependencies
 sudo apt install usbutils usb-modeswitch
 
 Please give star if it was helpful for you. 
